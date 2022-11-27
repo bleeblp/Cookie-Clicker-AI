@@ -1,0 +1,21 @@
+{
+
+  "manifest_version": 2,
+  "name": "Cookienator",
+  "version": "1.0",
+
+  "description": "Plays cookie clicker optimally.",
+
+  "icons": {
+    "48": "icons/cookienator-48.png"
+    "96": "icons/cookienator-96.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["https://orteil.dashnet.org/cookieclicker/"],
+      "js": ["cookienator.js"]
+    }
+  ]
+
+}
